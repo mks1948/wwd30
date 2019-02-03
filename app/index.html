@@ -16,30 +16,29 @@
 </head>
 
 <body>
-  <nav id="navbar_fixed" class="navbar navbar--large navbar--fixed">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <nav class="root_nav nav" id="nav">
+    <button class="nav_trigger trigger" aria-label="toggle menu" id="trigger-menu">
+      <span class="trigger_line -first"></span>
+      <span class="trigger_line -second"></span>
+      <span class="trigger_line -third"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul>
-      <span class="navbar-text">
-        Navbar text with an inline element
-      </span>
-    </div>
+    <ul class="nav_menu menu _list-box" id="menu">
+      <li class="menu_item">
+        <a href="#portfolio" class="menu_link _text-caps _js-anchor">portfolio</a>
+      </li>
+      <li class="menu_item">
+        <a href="#about" class="menu_link _text-caps _js-anchor">about</a>
+      </li>
+      <li class="menu_item -logo">
+        <a href="#" class="menu_link -logo _text-caps _js-anchor">moonspeak</a>
+      </li>
+      <li class="menu_item">
+        <a href="#articles" class="menu_link _text-caps _js-anchor">articles</a>
+      </li>
+      <li class="menu_item">
+        <a href="#contact" class="menu_link _text-caps _js-anchor">contact</a>
+      </li>
+    </ul>
   </nav>
   <nav id="container__home" class="container__home">
     <p>
@@ -55,7 +54,7 @@
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        occaecat cupidatat snon proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         <button class="btn_primary">View Project</button>
       </div>
     </div>
@@ -128,6 +127,7 @@
         <h4>
           Excepteur sint occaecat cupidatat non proident
         </h4>
+
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
         aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</br> Learn
@@ -163,6 +163,7 @@
           </p>
           almaz@bisenbaev.com
         </div>
+
       </div>
       <div class="contact__images">
         <img src="./assets/img/map.png">
