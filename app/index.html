@@ -10,41 +10,44 @@
   <link href="css/style.css" rel="stylesheet" />
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Roboto+Slab:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 
 </head>
 
 <body>
   <nav id="navbar_fixed" class="navbar navbar--large navbar--fixed">
-    <div class="container navbar__container">
-      <a href="#" class="navbar-brand">
-        <img src="images/brand_signet.svg" class="navbar-brand__signet" alt="Treehouse">
-        <p class="navbar-brand__name"></p>
-      </a>
-      <button class="navbar-toggle">
-        <span class="navbar-toggle__label">Otwórz/zamknij menu</span>
-      </button>
-      <ul class="navbar-menu" id="navbar-menu-list">
-        <li class="navbar-menu__item">
-          <a class="navbar-menu__link navbar-menu__link--active" href="#home">Home</a>
+    <a class="navbar-brand" href="#">Navbar w/ text</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
         </li>
-        <li class="navbar-menu__item">
-          <a class="navbar-menu__link" href="#about">About</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
         </li>
-        <li class="navbar-menu__item">
-          <a class="navbar-menu__link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a class="navbar-menu__link" href="#blog">Blog</a>
-        </li>
-        <li class="navbar-menu__item">
-          <a class="navbar-menu__link" href="#contact">Contact</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
         </li>
       </ul>
+      <span class="navbar-text">
+        Navbar text with an inline element
+      </span>
     </div>
   </nav>
+  <nav id="container__home" class="container__home">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, </br> sed do eiusmod tempor incididunt ut labore
+    </p>
+  </nav>
   <nav id="home" class="home">
-    <div class="container">
+    <div class="container__home--box">
       <div class="container__text">
         <p>
           AARHUS LEJERBOLIGER
@@ -58,7 +61,7 @@
     </div>
   </nav>
   <nav id="foto__home" class="foto__home">
-    <div class="container foto_box">
+    <div class="container__foto--box foto_box">
       <div class="foto__box foto_box_1">
         <img src="./assets/img/gallery-1.png">
       </div>
@@ -79,11 +82,92 @@
       </div>
     </div>
   </nav>
-  <nav class="description">
-    <div class="container description">
-      <p>
+  <nav id="description" class="description">
+    <div class="description__home">
+      <div class="description__top--text">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur</br> adipiscing elit, sed do eiusmod tempor incididunt ut</br> labore et
+          dolore magna aliqua.
+        </p>
+      </div>
+      <div class="description__bottom--container">
+        <div class="description__bottom--left">
+          <img src='./assets/decoration-about.png' />
+        </div>
+        <div class="description__bottom--right">
+          <div class="description__bottom--text">
+            MOONSPEAK </br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua.
+          </div>
+          <div class="description__bottom--text">
+            MOONSPEAK</br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua.
+          </div>
+          <div class="description__bottom--text">
+            MOONSPEAK</br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua.
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </nav>
+  <nav id='card__all' class="card__all">
+    <div class="card-section container">
+      <div class="card__container">
+        <h4>
+          Excepteur sint occaecat cupidatat non proident
+        </h4>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</br> Learn
+        more
+      </div>
+      <div class="card__container">
+        <h4>
+          Excepteur sint occaecat cupidatat non proident
+        </h4>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</br> Learn
+        more
+      </div>
+      <div class="card__container">
+        <h4>
+          Excepteur sint occaecat cupidatat non proident
+        </h4>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</br> Learn
+        more
+      </div>
+
+    </div>
+  </nav>
+  <nav id="contact" class="contact">
+    <div class="contact__container">
+      <div class="contact__description">
+        There are many variations of passages</br>
+        of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words
+        which don't look even slightly believable.</br>
+        <div class="contact__number">
+          <p>
+            Phone number
+          </p>
+          +40 770 123 456
+        </div>
+        <div class="contact__email">
+          <p>
+            Email
+          </p>
+          almaz@bisenbaev.com
+        </div>
+      </div>
+      <div class="contact__images">
+        <img src="./assets/img/map.png">
+      </div>
+
     </div>
   </nav>
 </body>
