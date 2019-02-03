@@ -1,0 +1,56 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.container {
+  display: flex; }
+
+.blog {
+  color: red;
+  height: 12px; }
+
+.home {
+  height: 100vh; }
+  .home .container {
+    margin: 0 auto;
+    padding-top: 25%; }
+  .home button {
+    width: 150px;
+    margin-top: 40px; }
+  .home .container__text {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-left: 25%;
+    margin-right: 25%; }
+  .home p {
+    font-size: 32px;
+    justify-content: center;
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; }
+
+.foto__text {
+  height: 12px;
+  color: black; }
+
+.foto_box {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center; }
+  .foto_box .foto__box {
+    width: 33.33333%;
+    height: 25vw; }
+  .foto_box img {
+    width: 100%;
+    height: 100%;
+    margin: 0; }
+
+.description {
+  height: 30vh;
+  background-color: antiquewhite; }
